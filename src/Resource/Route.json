@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "route": "home",
+    "label": "Home",
+    "data": {
+      "name": "Ryan Udelhoven",
+      "age": 28
+    }
+  },
+  {
+    "id": 1,
+    "route": "content",
+    "label": "Content",
+    "data": {
+      "name": "Ryan Udelhoven",
+      "age": 28
+    }
+  },
+  {
+    "id": 2,
+    "route": "state",
+    "label": "State",
+    "data": {
+      "name": "Ryan Udelhoven",
+      "age": 28
+    }
+  }
+]
