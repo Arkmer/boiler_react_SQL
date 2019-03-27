@@ -56,6 +56,7 @@ class Home extends Component {
   }
 
   render() {
+    console.log(JSON.stringify(this.props.testReducer));
     return (
       <React.Fragment>
         <h2>State</h2>

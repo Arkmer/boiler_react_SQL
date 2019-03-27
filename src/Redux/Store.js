@@ -3,8 +3,7 @@ import { createStore, combineReducers } from 'redux';
 const testReducer = (state = 0, action) => {
   switch (action.type) {
     case 'TEST_REDUCER':
-      console.log('Reducer: Success:', state);
-      console.log('Action:', action);
+      console.log('Reducer: Success:', state, action.payload);
       return state + 1;
     default:
       return state;

@@ -7,9 +7,8 @@ class Content extends Component {
     super(props);
     this.state = {
       data: {
-        name: { first: 'Ryan', last: 'Udelhoven', middle: 'M',},
+        name: { first: 'Ryan', middle: 'M', last: 'Udelhoven', },
         age: 28,
-        occupation: 'Software Engineer',
       }
     }
   }
